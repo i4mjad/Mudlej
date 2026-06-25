@@ -55,7 +55,13 @@ jobs:
             DEVELOPMENT_TEAM="$APPLE_TEAM_ID" \
             PROVISIONING_PROFILE_SPECIFIER="" \
             OTHER_CODE_SIGN_FLAGS="--timestamp --options runtime" \
+            CODE_SIGN_INJECT_BASE_ENTITLEMENTS=NO \
+            ENABLE_DEBUG_DYLIB=NO \
             clean build
+          # get-task-allow (a debug entitlement) is rejected by notarization — make sure it's gone.
+          codesign -d --entitlements - \
+            "build/Build/Products/Release/$APP_NAME.app" 2>/dev/null \
+            | grep -q "get-task-allow" && { echo "::error::get-task-allow present"; exit 1; } || true
           # Fail early unless the bundle is Developer-ID signed with hardened runtime.
           codesign --verify --deep --strict --verbose=2 \
             "build/Build/Products/Release/$APP_NAME.app"
