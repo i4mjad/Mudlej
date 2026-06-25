@@ -120,6 +120,23 @@ ps -Axo comm=
    agent isn't detected, run `ps -Axo comm=` while it's active to find the real
    string and add it to the patterns list (above).
 
+## Releasing
+
+Pushing a version tag builds, signs (Developer ID), notarizes, and attaches a
+`.dmg` to a GitHub Release — see [`.github/workflows/release.yml`](.github/workflows/release.yml).
+
+```sh
+git tag v1.0 && git push origin v1.0
+```
+
+One-time setup — add these repo secrets (Settings → Secrets and variables → Actions):
+
+| Secret | Reuse from Surrah? |
+| --- | --- |
+| `ASC_KEY_ID`, `ASC_ISSUER_ID`, `ASC_API_KEY_P8` | ✅ same values (App Store Connect API key) |
+| `DEVELOPER_ID_CERT_P12_BASE64`, `DEVELOPER_ID_CERT_PASSWORD` | ❌ new — Surrah's iOS *Distribution* cert can't sign a macOS `.dmg`; create a **Developer ID Application** cert (Xcode → Settings → Accounts → Manage Certificates → ＋), export as `.p12`, then `base64 -i DeveloperID.p12 \| pbcopy` |
+| `APPLE_TEAM_ID` | the Developer ID cert's 10-char team id |
+
 ## License
 
 [MIT](LICENSE)
