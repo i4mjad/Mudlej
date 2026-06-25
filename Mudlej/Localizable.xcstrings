@@ -1,0 +1,132 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "About Mudlej" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : { "state" : "translated", "value" : "حول مدلج" }
+        }
+      }
+    },
+    "Allow sleep" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : { "state" : "translated", "value" : "السماح بالنوم" }
+        }
+      }
+    },
+    "Auto" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : { "state" : "translated", "value" : "تلقائي" }
+        }
+      }
+    },
+    "English" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : { "state" : "translated", "value" : "الإنجليزية" }
+        }
+      }
+    },
+    "Keep awake" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : { "state" : "translated", "value" : "إبقاء الجهاز مستيقظًا" }
+        }
+      }
+    },
+    "Keep awake with lid closed" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : { "state" : "translated", "value" : "إبقاء الجهاز مستيقظًا والغطاء مغلق" }
+        }
+      }
+    },
+    "Keep display awake too" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : { "state" : "translated", "value" : "إبقاء الشاشة نشطة أيضًا" }
+        }
+      }
+    },
+    "Keeps your Mac awake while AI agents run." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : { "state" : "translated", "value" : "يُبقي Mac صاحيًا ما دام وكلاؤك يعملون." }
+        }
+      }
+    },
+    "Language" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : { "state" : "translated", "value" : "اللغة" }
+        }
+      }
+    },
+    "Launch at login" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : { "state" : "translated", "value" : "التشغيل عند تسجيل الدخول" }
+        }
+      }
+    },
+    "No agents detected" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : { "state" : "translated", "value" : "لم يُرصد أي وكيل نشط" }
+        }
+      }
+    },
+    "Quit Mudlej" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : { "state" : "translated", "value" : "إنهاء مدلج" }
+        }
+      }
+    },
+    "Running: %@" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : { "state" : "translated", "value" : "قيد التشغيل: %@" }
+        }
+      }
+    },
+    "System" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : { "state" : "translated", "value" : "النظام" }
+        }
+      }
+    },
+    "Tip: closing the lid sleeps the Mac unless “Keep awake with lid closed” is on." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : { "state" : "translated", "value" : "ملاحظة: إغلاق الغطاء يُنيم الجهاز ما لم يكن خيار «إبقاء الجهاز مستيقظًا والغطاء مغلق» مُفعّلًا." }
+        }
+      }
+    },
+    "⚠️ Sleep is disabled system-wide until you turn this off." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : { "state" : "translated", "value" : "⚠️ النوم مُعطّل على مستوى النظام حتى تُوقف هذا الخيار." }
+        }
+      }
+    },
+    "Version %@" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : { "state" : "translated", "value" : "الإصدار %@" }
+        }
+      }
+    },
+    "“مدلج” means one who journeys through the night — the Mac keeps working until your agents reach dawn." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : { "state" : "translated", "value" : "«مدلج» هو الذي يسري في الليل — يظل جهازك يعمل حتى تبلغ عواملك الفجر." }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

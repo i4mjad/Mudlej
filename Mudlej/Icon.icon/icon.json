@@ -1,0 +1,40 @@
+{
+  "fill" : {
+    "automatic-gradient" : "srgb:0.08644,0.00323,0.16965,1.00000"
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "fill" : {
+            "solid" : "srgb:1.00000,0.96309,0.97637,1.00000"
+          },
+          "glass" : false,
+          "image-name" : "مُدلِـج.svg",
+          "name" : "مُدلِـج",
+          "position" : {
+            "scale" : 2.75,
+            "translation-in-points" : [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
